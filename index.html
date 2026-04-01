@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Clezio Martins</title>    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Portifólio</h1>
+    <nav class="navegação">
+        <ul class="menu">
+            <li><a href="#sobre" class="menu-link">Sobre</a>
+            </li>
+            <li><a href="#projetos" class="menu-link">Projetos</a>
+            </li>
+            <li><a href="#contato" class="menu-link">Contato</a>
+            </li>
+             <li><button id="btn-tema">Escuro</button></li>
+            
+        </ul>
+
+    </nav>
+    </header>
+
+    <main>
+        <section id="sobre">
+            <h2>Sobre Mim</h2>
+            <img src="Perfil01.png" alt="Clezio Martins">
+            <h2>Clezio Martins</h2>
+            
+            <div class="sobre-caixa">
+                <p class="sobre-paragrafo">
+                Estudante de Sistemas para Internet | Desenvolvedor Web em formação. Apaixonado por transformar lógica
+                em soluções digitais e em constante evolução técnica.
+                </p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2>Meus Projetos</h2>
+            <div class="projetos-container"></div>
+        </section>
+
+        <section id="contato">
+            <h2>Contato</h2>
+            <form action="#" method="post" id="meu-formulario">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" required>
+                </div>
+                <div class="campo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" required>                
+                </div>
+                <div class="campo">
+                    <label for="msg">Mensagem:</label>
+                    <textarea id="msg"></textarea>
+                </div>
+                
+                <button type="submit">Enviar Mensagem</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p> 2026 - Desenvolvido por Clezio Martins</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>

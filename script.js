@@ -1,4 +1,4 @@
-const formulario = document.querySelector('#meu-formulario');
+a botou o que quizconst formulario = document.querySelector('#meu-formulario');
 
 function validarFormulario(event) {
     event.preventDefault(); 
@@ -37,7 +37,7 @@ const meusProjetos = [
     {
         titulo: "Projeto 02 - Portfólio",
         descricao: "Meu portfólio de apresentação feito com tecnologias modernas.",
-        link: "https://github.com/pedroalex/portfolio"
+        link: "https://github.com/clzms-dev/Meu-Potifolio-HTML5-CSS3-JavaScript"
     }
 ];
 

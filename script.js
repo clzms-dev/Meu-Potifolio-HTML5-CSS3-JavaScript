@@ -1,4 +1,4 @@
-a botou o que quizconst formulario = document.querySelector('#meu-formulario');
+const formulario = document.querySelector('#meu-formulario');
 
 function validarFormulario(event) {
     event.preventDefault(); 
@@ -32,7 +32,8 @@ function alternarTema() {
 }
 
 btnTema.addEventListener('click', alternarTema);
-const meusProjetos = [
+
+const meusProjetos= [
 
     {
         titulo: "Projeto 02 - Portfólio",
